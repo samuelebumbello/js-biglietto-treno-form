@@ -1,51 +1,59 @@
 body{
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   background-color: #740404;
-}
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #740404;
+    background-size: cover;
+ }
+ 
+ h1{
+     font-weight: bold;
+ }
+ 
+ .container{
+    background-color: white;    
+     width: 90%;
+     border-radius: 15px;
+     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+ }
+ 
+ input{
+     padding: 5px 25px;
+     border-radius: 10px;
+     border-color: #990000;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ 
+ select{
+     padding: 5px 25px;
+     background-color: white;
+     border-color: #990000;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     
+ }
+ 
+ button{
+     border-radius: 10px;
+     border-color: #990000;
+     margin-right: 25px;
+     padding: 5px 25px;
+     font-weight: 600;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ 
+ .box{
+     background-color: rgb(199, 197, 197);
+     width: 100%;
+     height: 100%;
+ }
+ 
+ table{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
 
-h1{
-    font-weight: bold;
-}
-
-.container{
-    background-color: white;
-    width: 90%;
-    border-radius: 15px;
-    box-shadow: 0px  0px 50px 0px rgba(0, 0, 0, 1);
-}
-
-input{
-    padding: 5px 25px;
-    border-radius: 10px;
-    border-color: #990000;
-}
-
-select{
-    padding: 5px 25px;
-    background-color: white;
-    border-color: #990000;
-    border-radius: 10px;
-    
-}
-
-button{
-    border-radius: 10px;
-    border-color: #990000;
-    margin-right: 25px;
-    padding: 5px 25px;
-    font-weight: 600;
-}
-
-.box{
-    background-color: rgb(199, 197, 197);
-    width: 100%;
-    height: 100%;
-}
-
-.table tbody tr td{
-    background-color: white;
-}
-
-.hide{
-    display: none;
-}
+ .table tbody tr td{
+     background-color: white;
+ }
+ 
+ .hide{
+     display: none;
+ }
