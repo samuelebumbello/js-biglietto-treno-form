@@ -18,14 +18,14 @@
 
             <div class="col-4">
                 <div>
-                    <label for="name" class="fw-semibold  text-black text-center pb-3">Nome e Cognome</label>
+                    <label for="name" value="" class="fw-semibold  text-black text-center pb-3">Nome e Cognome</label>
                 </div>
-                <input id="nameuser" type="text"placeholder="Inserisci Nome e Cognome">
+                <input id="nameuser" value="" type="text"placeholder="Inserisci Nome e Cognome">
             </div>
 
             <div class="col-4">
                 <div>
-                    <label for="km" class="fw-semibold  text-black text-center pb-3">Km da Percorrere</label>
+                    <label for="km" value="" class="fw-semibold  text-black text-center pb-3">Km da Percorrere</label>
                 </div>
                 <input id="kmuser" type="text" placeholder="Inserisci km da percorrere">
             </div>
@@ -48,6 +48,44 @@
                 </div>
             </div>
         </div> 
+    </div>
+
+    <h1 class="text-center text-white pt-5 mt-3">
+        IL TUO BIGLIETTO
+    </h1>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col p-5">
+                <div class="card ticket hide">
+                    <h4 class="fw-bold">DETTAGLIO PASSEGGERI:</h4>
+                    <div class="box">
+                        <table class="table">
+                            <thead>
+                                <tr class="text-center">
+                                    <th scope="col">Nome Passeggero</th>
+                                    <th scope="col">Offerts</th>
+                                    <th scope="col">Carrozza</th>
+                                    <th scope="col">Codice CP</th>
+                                    <th scope="col">Costo Biglietto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="text-center">
+                                    <td id="ticketname">
+                                        <p id="output"></p>
+                                    </td>
+                                    <td id="ticketofferta"></td>
+                                    <td id="ticketcarrozza"></td>
+                                    <td id="ticketcodice"></td>
+                                    <td id="ticketcosto"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> 
+                </div>
+            </div>
+        </div>
     </div>
 
 

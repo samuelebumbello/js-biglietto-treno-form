@@ -34,4 +34,25 @@ firstbutton.addEventListener('click' , function(){
         console.log('Prezzo scontato 40%', discountPrice);
 
     }
+
+    const text = document.querySelector('.card')
+
+    if(text.classList.contains('hide')){
+        text.classList.remove('hide')
+    }
+
+    let input = document.getElementById('ticketname');
+    let output = document.getElementById('output');
+    ticketname = userName.value;
+    output.innerHTML = userName
+    userName.value = "";
+})
+
+secondbutton.addEventListener('click' , function(){
+    
+    const ticket = document.querySelector('.ticket');
+
+    if(ticket){
+        ticket.classList.add('hide');
+    }
 })
