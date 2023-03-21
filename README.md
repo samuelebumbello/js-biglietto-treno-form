@@ -18,8 +18,10 @@ Il recap dei dati e l’output del prezzo finale, andranno quindi stampati in pa
 
 ## Steps
 
--   Creare un prompt per chiedere all'untente i km che deve percorrere
--   Creare un prompt per chiedere all'utente l'età. (se è under 18 sconto 20% se è over 65 sconto 40%)
--   Inserire in una variabile il prezzo del biglietto in base ai km (0.21€)
+-   Applicare una variabile per il prezzo del biglietto (0.21€)
+-   Chiedere all'utente l'età e salvarla per poter applicare lo sconto. (se è under 18 sconto 20% se è over 65 sconto 40%)
+-   Chiedere all'utente quanti km vuole percorrere
 -   Calcolare i km che l'utente vuole fare e moltiplicarli per (0.21€)
 -   Aggiungere prezzo del biglietto e lo sconto ( costo del biglietto - sconto )
+-   Generare tramite il bottone "Genera il biglietto sotto il form con i dettagli dell'utente
+-   Cancellare tramite il bottone "Annulla" la prenotazione dell'utente.

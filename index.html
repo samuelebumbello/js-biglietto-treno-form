@@ -10,14 +10,46 @@
     <title>Biglietto treno form</title>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="row">
-            <h1 class="text-center text-white pt-5">
-                CALCOLA IL PREZZO DEL TUO BIGLIETTO
-            </h1>
-        </div>
+    <h1 class="text-center text-white pt-5 mt-3">
+        CALCOLA IL PREZZO DEL TUO BIGLIETTO
+    </h1>
+    <div class="container mt-5">
+        <div class="row pt-5 pb-5 text-center">
+
+            <div class="col-4">
+                <div>
+                    <label for="name" class="fw-semibold  text-black text-center pb-3">Nome e Cognome</label>
+                </div>
+                <input id="nameuser" type="text"placeholder="Inserisci Nome e Cognome">
+            </div>
+
+            <div class="col-4">
+                <div>
+                    <label for="km" class="fw-semibold  text-black text-center pb-3">Km da Percorrere</label>
+                </div>
+                <input id="kmuser" type="text" placeholder="Inserisci km da percorrere">
+            </div>
+
+            <div class="col-4">
+                <div>
+                    <label for="age"class="fw-semibold text-black text-center pb-3">Fascia d'età</label>
+                </div>
+                <select name="età" id="age">
+                    <option value="under18">Minorenne</option>
+                    <option value="maggiorenne">Maggiorenne</option>
+                    <option value="over65">Over 65</option>
+                </select>
+            </div>
+
+            <div class="row text-center pt-5 ">
+                <div class="col">
+                    <button id="firstbutton">Genera</button>
+                    <button id="secondbutton">Annulla</button>
+                </div>
+            </div>
+        </div> 
     </div>
+
 
 
 
